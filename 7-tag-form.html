@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi 7 - Tag Form</title>
+  </head>
+  <body>
+    <h1>MATERI 7 - TAG FORM</h1>
+    <!-- Form (form -> lable, input, dll) -->
+    <form>
+      <label for="nama">Nama : </label>
+      <input type="text" name="nama" placeholder="isi nama anda..." required />
+      <br />
+      <label for="umur">Umur : </label>
+      <input
+        type="number"
+        name="umur"
+        placeholder="isi umur anda..."
+        required
+      />
+      <br />
+      <label for="tanggal_lahir">Tanggal Lahir</label>
+      <input type="date" required />
+
+      <br />
+      <button type="submit">Kirim</button>
+    </form>
+    <br />
+
+    <!-- Studi Kasus : Form Login -->
+    <form>
+      <label for="email">Email</label>
+      <input type="email" required />
+      <br />
+      <label for="password">Password</label>
+      <input type="password" required />
+      <br />
+      <button type="submit">Kirim</button>
+    </form>
+    <br />
+    <form>
+      <fieldset>
+        <legend>Formulir Login</legend>
+        <label for="email">Email : </label>
+        <input type="email" required />
+        <br />
+        <label for="password">Password : </label>
+        <input type="password" required />
+        <br />
+        <button type="submit">Kirim</button>
+      </fieldset>
+    </form>
+    <br />
+    <form>
+      <!-- Radio Button -->
+      <label for="gender">Gender : </label>
+      <input type="radio" name="gender" value="l" /><label for=""
+        >laki-laki</label
+      >
+      <input type="radio" name="gender" value="p" /><label for=""
+        >perempuan</label
+      >
+      <br />
+      <!-- Checkbox Button -->
+      <label for="hobby">Hobi : </label>
+      <input type="checkbox" value="basket" /><label for="">Basket</label>
+      <input type="checkbox" value="ngoding" /><label for="">Ngoding</label>
+      <input type="checkbox" value="ngobrol" /><label for=""
+        >Ngobrol Chatgpt</label
+      >
+      <br />
+      <!-- Select Button -->
+      <select>
+        <option disabled selected>pilih negara</option>
+        <option value="arab">arab</option>
+        <option value="amerika">amerika</option>
+        <option value="indonesia">indonesia</option>
+        <option value="other">other</option>
+      </select>
+    </form>
+  </body>
+</html>

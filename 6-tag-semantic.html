@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi 6 - Tag Semantic</title>
+  </head>
+  <body>
+    <h1>MATERI 6 - TAG SEMANTIC</h1>
+
+    <!-- Non Semantic : Penggunaan jaman dulu -->
+    <div class="header">
+      <div class="navbar"></div>
+    </div>
+    <div class="sidebar"></div>
+    <div class="main">
+      <div class="section"></div>
+    </div>
+    <div class="footer"></div>
+
+    <!-- Semantic : memberikan makna pada tag html -->
+    <header>
+      <h1>Portal Belajar Frontend</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#materi">Materi</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="materi">
+        <article>
+          <h2>Pengenalan HTML</h2>
+          <p>HTML adalah bahasa struktur untuk web.</p>
+        </article>
+
+        <article>
+          <h2>Pengenalan CSS</h2>
+          <p>CSS digunakan untuk styling tampilan.</p>
+        </article>
+      </section>
+
+      <aside>
+        <h3>Catatan Tambahan</h3>
+        <p>Gunakan elemen semantik untuk SEO dan aksesibilitas.</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>© 2025 Portal Belajar Frontend</p>
+    </footer>
+  </body>
+</html>

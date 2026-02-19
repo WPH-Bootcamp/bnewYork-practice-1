@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi 4 - Tag Multimedia</title>
+  </head>
+  <body>
+    <h1>MATERI 4 - TAG MULTIMEDIA</h1>
+
+    <h2>1. Materi Tag Video</h2>
+    <!-- Video (video/source) : Untuk menambahkan video dalam konten web -->
+    <video controls poster="./assets/avenger.jpg">
+      <source src="./assets/video.mp4" type="video/mp4" />
+    </video>
+
+    <h2>2. Materi Tag Audio</h2>
+    <!-- Audio (audio/source) : Untuk menambahkan audio dalam konten web -->
+    <audio controls>
+      <source src="./assets/akh.mp3" type="audio/mp3" />
+    </audio>
+
+    <h2>3. Materi Tag Iframe</h2>
+    <!-- Iframe (iframe) : Untuk menambahkan konten website lain ke website kita -->
+    <iframe
+      data-testid="embed-iframe"
+      style="border-radius: 12px"
+      src="https://open.spotify.com/embed/track/5WOSNVChcadlsCRiqXE45K?utm_source=generator"
+      width="100%"
+      height="352"
+      frameborder="0"
+      allowfullscreen=""
+      allow="
+        autoplay;
+        clipboard-write;
+        encrypted-media;
+        fullscreen;
+        picture-in-picture;
+      "
+      loading="lazy"
+    ></iframe>
+  </body>
+</html>
